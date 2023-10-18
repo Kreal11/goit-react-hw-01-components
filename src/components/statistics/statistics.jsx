@@ -1,2 +1,2 @@
 import './statistics.css';
-import data from './data.json';
+import data from '../../assets/data.json';

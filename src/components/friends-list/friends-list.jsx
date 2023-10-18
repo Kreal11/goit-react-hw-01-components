@@ -1,2 +1,2 @@
 import './friends-list.css';
-import friends from './friends.json';
+import friends from '../../assets/friends.json';

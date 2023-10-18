@@ -1,2 +1,2 @@
 import './transactions-history.css';
-import transactions from './transactions.json';
+import transactions from '../../assets/transactions.json';

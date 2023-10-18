@@ -1,2 +1,2 @@
 import './profile.css';
-import user from './user.json';
+import user from '../../assets/user.json';
