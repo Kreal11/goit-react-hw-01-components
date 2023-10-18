@@ -13,7 +13,7 @@ export const Transactions = ({ items }) => {
       </thead>
 
       <tbody>
-        {items.map(({ ...item }) => {
+        {items.map(item => {
           return <OneItem {...item} key={item.id} />;
         })}
       </tbody>

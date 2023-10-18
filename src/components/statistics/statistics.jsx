@@ -7,7 +7,7 @@ export const Statistics = ({ title, stats }) => {
       {title ? <h2 className="title">{title}</h2> : null}
 
       <ul className="stat-list">
-        {stats.map(({ ...oneItem }) => {
+        {stats.map(oneItem => {
           return <OneStatEx {...oneItem} key={oneItem.id} />;
         })}
       </ul>
