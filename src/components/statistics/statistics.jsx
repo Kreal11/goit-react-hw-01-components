@@ -1,4 +1,4 @@
-import { Onestatex } from './one-stat-ex';
+import { OneStatEx } from './one-stat-ex';
 import './statistics.css';
 
 export const Statistics = ({ title, stats }) => {
@@ -8,7 +8,7 @@ export const Statistics = ({ title, stats }) => {
 
       <ul className="stat-list">
         {stats.map(({ ...oneItem }) => {
-          return <Onestatex {...oneItem} key={oneItem.id} />;
+          return <OneStatEx {...oneItem} key={oneItem.id} />;
         })}
       </ul>
     </section>

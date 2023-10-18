@@ -1,4 +1,4 @@
-export const Onestatex = ({ label, percentage }) => {
+export const OneStatEx = ({ label, percentage }) => {
   return (
     <li className="item">
       <span className="label">{label}</span>
