@@ -1,0 +1,1 @@
+import './transactions-history.css';
