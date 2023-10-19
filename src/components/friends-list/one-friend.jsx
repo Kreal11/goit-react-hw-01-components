@@ -1,31 +1,19 @@
+import {
+  StyledItem,
+  StyledIsNotOnline,
+  StyledIsOnline,
+} from './friends-list.styled';
+
 export const OneFriend = ({ avatar, name, isOnline }) => {
   return (
-    <li className="item">
+    <StyledItem>
       {isOnline ? (
-        <span
-          className="status"
-          style={{
-            backgroundColor: '#008000',
-            display: 'block',
-            width: '10px',
-            height: '10px',
-            borderRadius: '50%',
-          }}
-        ></span>
+        <StyledIsOnline></StyledIsOnline>
       ) : (
-        <span
-          className="status"
-          style={{
-            backgroundColor: '#FF0000',
-            display: 'block',
-            width: '10px',
-            height: '10px',
-            borderRadius: '50%',
-          }}
-        ></span>
+        <StyledIsNotOnline></StyledIsNotOnline>
       )}
       <img className="avatar" src={avatar} alt="User avatar" width="48" />
       <p className="name">{name}</p>
-    </li>
+    </StyledItem>
   );
 };

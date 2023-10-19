@@ -1,4 +1,3 @@
-import './transactions-history.module.css';
 import { OneItem } from './one-item';
 
 export const Transactions = ({ items }) => {

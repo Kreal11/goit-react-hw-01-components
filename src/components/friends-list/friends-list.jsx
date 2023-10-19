@@ -1,12 +1,12 @@
-import './friends-list.module.css';
 import { OneFriend } from './one-friend';
+import { StyledList } from './friends-list.styled';
 
 export const FriendsList = ({ friends }) => {
   return (
-    <ul className="friend-list">
+    <StyledList>
       {friends.map(friend => {
         return <OneFriend {...friend} key={friend.id} />;
       })}
-    </ul>
+    </StyledList>
   );
 };
