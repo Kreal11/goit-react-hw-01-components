@@ -1,0 +1,29 @@
+.profile {
+  width: 310px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  border: 1px solid;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+}

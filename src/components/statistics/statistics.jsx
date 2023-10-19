@@ -1,5 +1,5 @@
 import { OneStatEx } from './one-stat-ex';
-import './statistics.css';
+import './statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
   return (

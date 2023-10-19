@@ -1,3 +1,5 @@
+import './transactions-history.module.css';
+
 export const OneItem = ({ type, amount, currency }) => {
   return (
     <tr>

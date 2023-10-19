@@ -1,3 +1,5 @@
+import './statistics.module.css';
+
 export const OneStatEx = ({ label, percentage }) => {
   return (
     <li className="item">
