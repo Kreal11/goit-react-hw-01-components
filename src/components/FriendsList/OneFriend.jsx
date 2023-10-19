@@ -2,7 +2,7 @@ import {
   StyledItem,
   StyledIsNotOnline,
   StyledIsOnline,
-} from './friends-list.styled';
+} from './FriendsList.styled';
 
 export const OneFriend = ({ avatar, name, isOnline }) => {
   return (

@@ -1,4 +1,4 @@
-import { StyledTransaction, StyledTd } from './transactions-history.styled';
+import { StyledTransaction, StyledTd } from './TransactionsHistory.styled';
 
 export const OneItem = ({ type, amount, currency, index }) => {
   return (

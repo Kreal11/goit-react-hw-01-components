@@ -1,11 +1,11 @@
-import { OneItem } from './one-item';
+import { OneItem } from './OneItem';
 import {
   StyledTable,
   StyledThead,
   StyledTBody,
   StyledTh,
   StyledTheadWrapper,
-} from './transactions-history.styled';
+} from './TransactionsHistory.styled';
 
 export const Transactions = ({ items }) => {
   return (
