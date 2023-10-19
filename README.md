@@ -1,6 +1,6 @@
 # React homework template
 
-Додаю зміну
+Додаю зміну 2
 
 Этот проект был создан при помощи
 [Create React App](https://github.com/facebook/create-react-app). Для знакомства
