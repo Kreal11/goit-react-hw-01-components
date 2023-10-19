@@ -1,12 +1,11 @@
 import { OneStatEx } from './one-stat-ex';
-import './statistics.module.css';
+import css from './statistics.module.css';
 
 export const Statistics = ({ title, stats }) => {
   return (
-    <section className="statistics">
-      {title ? <h2 className="title">{title}</h2> : null}
-
-      <ul className="stat-list">
+    <section className={css.statistics}>
+      {title ? <h2 className={css.title}>{title}</h2> : null}
+      <ul className={css.statList}>
         {stats.map(oneItem => {
           return <OneStatEx {...oneItem} key={oneItem.id} />;
         })}

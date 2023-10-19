@@ -1,9 +1,9 @@
-import './statistics.module.css';
+import css from './statistics.module.css';
 
 export const OneStatEx = ({ label, percentage }) => {
   return (
-    <li className="item">
-      <span className="label">{label}</span>
+    <li className={css.item}>
+      <span className={css.label}>{label}</span>
       <span className="percentage">{percentage}%</span>
     </li>
   );
