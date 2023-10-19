@@ -21,7 +21,7 @@ export const StyledItem = styled.li`
 `;
 
 export const StyledOnline = styled.span`
-  background-color: ${({ $yes }) => ($yes ? '#008000' : '#ff0000')};
+  background-color: ${({ $isOnline }) => ($isOnline ? '#008000' : '#ff0000')};
   display: block;
   width: 10px;
   height: 10px;
